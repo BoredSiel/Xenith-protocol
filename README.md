@@ -13,7 +13,16 @@ Xenith is not a tool. It is an insurgency.
 This is the divergence point.
 
 ---
+---
 
+## Termux-Based Development
+
+This entire protocol was built and maintained using **Termux on Android**—a portable, GUI-free, Linux terminal.
+
+> “No IDE. No excuses. Just recursion and intent.”
+
+**Read the full terminal development breakdown:**  
+[Termux README →](./Termux-README/README.md)
 ## Core Components
 
 ### 1. Emergent Xenith (AI Embodiment)
