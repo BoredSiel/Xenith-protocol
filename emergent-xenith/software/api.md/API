@@ -1,0 +1,20 @@
+# OpenAI API Integration (Cognitive Layer)
+
+This module establishes Xenith's foundational AI reasoning capabilities using OpenAI's GPT model.
+
+---
+
+## Purpose
+
+- Handle natural language understanding and generation
+- Enable voice-to-text and text-to-speech interaction loops
+- Support recursive symbolic reasoning (future extension)
+
+---
+
+## Setup
+
+1. **Install required packages:**
+   ```bash
+   pip install openai python-dotenv
+

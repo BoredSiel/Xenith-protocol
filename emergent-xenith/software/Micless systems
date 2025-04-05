@@ -1,0 +1,21 @@
+import openai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
+def ask(prompt):
+    response = openai.ChatCompletion.create(
+        model="gpt-4",
+        messages=[{"role": "user", "content": prompt}]
+    )
+    return response['choices'][0]['message']['content']
+
+while True:
+    prompt = input("You: ")
+    if prompt.lower() in ["exit", "quit"]:
+        break
+    reply = ask(prompt)
+    print("Xenith:", reply)
+
